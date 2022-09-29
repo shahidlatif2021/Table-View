@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.accessibilityIdentifier = "employTableView"
         // Do any additional setup after loading the view.
     }
 
